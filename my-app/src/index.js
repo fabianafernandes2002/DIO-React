@@ -1,10 +1,20 @@
 import React from "react"
-import reactDom from "react-dom"
+import ReactDOM from "react-dom"
+import Button from './Button.jsx'
 import "./styles.css"
 
-const element = 'Digital Inovation'
-const element2 = <h1>Olá Turma =D</h1>
+function soma() {
 
+}
+
+function App() {
+
+    return (
+        <div classname="App">
+        Hello World
+    </div>
+    )
+}
 
 const rootElement = document.getElementById("root")
-ReactDOM.render(element, rootElement)
+ReactDOM.render(<App />, rootElement)
